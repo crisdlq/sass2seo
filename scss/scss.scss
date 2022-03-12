@@ -1,0 +1,114 @@
+@import "variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    ul{
+
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        text-align: center;
+        background-color: #abf95d;
+        list-style-type: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 100px;
+        text-decoration: none;
+        
+        li{
+            color: rgb(19, 18, 17);
+        text-decoration: none;
+            
+        }
+
+
+    }
+
+   
+}
+
+.tituloPrincipal{
+    h1{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 100px;
+        margin-top: 4px;}
+}
+
+.subtitulo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    margin-top: 4px;
+    text-decoration: underline;
+
+
+}
+
+body{
+    background-color: $colorFondo;
+    font-family: $fuenteGeneral;
+}
+
+#imagenesHome1{
+
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+}
+
+.card{
+
+    @extend #imagenesHome1
+}
+
+.tituloGaleria{
+
+    @extend .tituloPrincipal
+}
+
+.recetas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    margin-top: 4px;
+    padding-bottom: 150px;
+    padding-top: 15px;
+
+}
+
+#parrafo2{
+    padding-bottom: 260px;
+}
+
+@mixin estiloTitulos ($colorLetra , $sizeLetra , $decoLetra, $typeLetra){
+
+    color:$colorLetra;
+    font-family:$typeLetra ;
+    font-size:$sizeLetra ;
+    text-decoration:$decoLetra ;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+h1{
+    @include estiloTitulos(rgb(44, 9, 9),60px ,underline ,verdana )
+}
+

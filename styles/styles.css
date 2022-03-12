@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: #abf95d;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  text-decoration: none; }
+  nav ul li {
+    color: #131211;
+    text-decoration: none; }
+
+.tituloPrincipal h1, .tituloGaleria h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  margin-top: 4px; }
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  margin-top: 4px;
+  text-decoration: underline; }
+
+body {
+  background-color: #D6A3FB;
+  font-family: Verdana; }
+
+#imagenesHome1, .card {
+  display: flex;
+  justify-content: center;
+  padding: 5px; }
+
+.recetas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  margin-top: 4px;
+  padding-bottom: 150px;
+  padding-top: 15px; }
+
+#parrafo2 {
+  padding-bottom: 260px; }
+
+h1 {
+  color: #2c0909;
+  font-family: verdana;
+  font-size: 60px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
